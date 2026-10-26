@@ -62,6 +62,19 @@
   .contact span + span::before { content: "|"; margin: 0 .6em; color: var(--line); }
   .contact + .contact { margin-top: 4px; }
 
+  .portfolio { margin: 18px 0 0; }
+  .btn {
+    display: inline-block;
+    padding: 9px 20px;
+    border: 2px solid var(--accent);
+    color: var(--accent);
+    font-weight: 600;
+    font-size: .92rem;
+    letter-spacing: .02em;
+    transition: background .15s, color .15s;
+  }
+  .btn:hover { background: var(--accent); color: var(--paper); text-decoration: none; }
+
   section { padding-top: 32px; }
   h2 {
     margin: 0 0 18px;
@@ -116,6 +129,7 @@
     body { background: #fff; color: #000; }
     .page { box-shadow: none; margin: 0; max-width: none; padding: 0; background: #fff; }
     a { color: #000; }
+    .btn { border-color: #000; }
     section { break-inside: avoid; }
   }
 </style>
@@ -134,6 +148,9 @@
       <span>Nacionalidad: Paraguaya</span>
       <span>CI: 3.805.338</span>
       <span>Estado civil: Casado</span>
+    </p>
+    <p class="portfolio">
+      <a class="btn" href="https://drive.google.com/drive/folders/17hvXRe2-b34o75Rk6i4mGuM3ssrJDLUC?usp=sharing" target="_blank" rel="noopener">Ver materiales audiovisuales realizados</a>
     </p>
   </header>
 
